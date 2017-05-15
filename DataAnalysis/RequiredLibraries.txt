@@ -10,3 +10,21 @@ f. one of the primary purposes with regards to data analysis is it is used as th
 passed between algorithms. 
 g. Also, libraries written in a lower-level language, such as C or Fortran, can operate on the data stored in a 
 NumPy array without copying any data.
+
+
+2. Pandas: Fundamental features offered by Pandas is DataFrame.
+pandas combines the high performance array-computing features of NumPy with the
+flexible data manipulation capabilities of spreadsheets and relational databases (such
+as SQL). It provides sophisticated indexing functionality to make it easy to reshape,
+slice and dice, perform aggregations, and select subsets of data. pandas is the primary
+tool that we will use in this book.
+
+The pandas name itself is derived from panel data, an econometrics term for multidimensional
+structured data sets, and Python data analysis itself.
+
+3. matplotlib : matplotlib is the most popular Python library for producing plots and other 2D data
+visualizations.
+
+4. IPython: 
+
+5. SciPy
