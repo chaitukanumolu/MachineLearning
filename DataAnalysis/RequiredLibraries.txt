@@ -1,0 +1,12 @@
+1. Numpy: Is a short from of Numerical python.  And NumPy is the fundamental package for scientific computation in python.
+Advantages of NumPy:
+a. Fast and efficient multidimentional array object ndarray
+b. Functions for performing element-wise computations with arrays or mathematical
+operations between arrays
+c. Tools for reading and writing array-based data sets to disk
+d. Linear algebra operations, Fourier transform, and random number generation
+e. Tools for integrating connecting C, C++, and Fortran code to Python
+f. one of the primary purposes with regards to data analysis is it is used as the primary container for data to be 
+passed between algorithms. 
+g. Also, libraries written in a lower-level language, such as C or Fortran, can operate on the data stored in a 
+NumPy array without copying any data.
