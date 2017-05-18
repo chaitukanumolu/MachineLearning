@@ -1,1 +1,61 @@
 
+''' http://scipy.github.io/old-wiki/pages/Tentative_NumPy_Tutorial '''
+''' my notes: https://docs.google.com/document/d/1QpY1s0M_kmql-5YMRJf2-33-n3OKV4qB472jp_CtQO8/edit'''
+
+from numpy import *
+a = arange(15).reshape(3,5)
+print(a)
+
+print(a.shape)
+print(a.ndim)
+print(a.dtype.name)
+print(a.itemsize)
+print(a.size)
+type(a)
+
+b = array([(1.5,2,3), (4,5,6)])
+print(b)
+
+
+
+c = array([[2,23], [43,23]], dtype=complex)
+print(c)
+
+print(zeros((3,4)))
+
+print(linspace(0,2,9))
+
+x = linspace(0,2*pi, 100)
+f = sin(x)
+print('f sin')
+# print(f)
+
+a = random.random((2,3))
+print(a)
+print(a.sum())
+print(a.min())
+print(a.max())
+
+b = arange(12).reshape(3,4)
+print(b)
+
+print(b.sum(axis=0))
+print(b.min(axis=1))
+print(b.cumsum(axis=1))
+
+
+B = arange(3)
+print(exp(B))
+print(sqrt(B))
+
+a=arange(10)**3
+print(a)
+print(a[2])
+print(a[2:5])
+#from 0 to 6 set every 2nd element to -1000
+a[:6:2]=-1000
+print(a)
+#reverse of a
+print(a[::-1])
+for i in a:
+	print(i**(1/3.))
