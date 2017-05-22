@@ -9,3 +9,5 @@ records=[json.loads(line) for line in open(path)]
 
 frame = DataFrame(records)
 print(frame)
+
+# https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.fe4pDjc
